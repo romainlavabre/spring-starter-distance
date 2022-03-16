@@ -12,5 +12,5 @@ public interface Distance {
      * @param distanceUnit Unit
      * @return Distance of 2 position to specified unit
      */
-    double getDistance( double latFrom, double longFrom, double latTo, double longTo, DistanceUnit distanceUnit );
+    double getDistance( Double latFrom, Double longFrom, Double latTo, Double longTo, DistanceUnit distanceUnit );
 }
